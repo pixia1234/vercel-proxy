@@ -1,9 +1,9 @@
 {
     "rewrites": [
-        { "source": "/", "destination": "https://api.openai.com" },
+        { "source": "/", "destination": "https://dashh.pixia.tech" },
         {
             "source": "/:match*",
-            "destination": "https://api.openai.com/:match*"
+            "destination": "https://dashh.pixia.tech/:match*"
         }
     ],
     "github": {
